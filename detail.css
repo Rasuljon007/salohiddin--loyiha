@@ -1,0 +1,189 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.7;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #1e40af, #3b82f6);
+      color: white;
+      padding: 1.2rem 5%;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo { font-size: 2.1rem; font-weight: bold; }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 2rem;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .nav a:hover { color: #fef08a; }
+
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 2rem 5%;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin: 1.5rem 0 2.5rem;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .back-btn:hover { color: #1e40af; text-decoration: underline; }
+
+    .car-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 3rem;
+      margin-bottom: 3rem;
+      flex-wrap: wrap;
+    }
+
+    .main-image {
+      flex: 2;
+      min-width: 400px;
+    }
+
+    .main-image img {
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+    }
+
+    .car-main-info {
+      flex: 1;
+      min-width: 320px;
+    }
+
+    .car-title {
+      font-size: 2.6rem;
+      margin-bottom: 1rem;
+      color: #0f172a;
+    }
+
+    .price-big {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #e11d48;
+      margin-bottom: 1.5rem;
+    }
+
+    .quick-specs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1.2rem;
+      margin: 2rem 0;
+    }
+
+    .spec-item {
+      background: #f1f5f9;
+      padding: 1rem;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .spec-item strong {
+      display: block;
+      font-size: 1.4rem;
+      color: #1e40af;
+      margin-bottom: 0.4rem;
+    }
+
+    .contact-box {
+      background: white;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      margin: 2.5rem 0;
+      text-align: center;
+    }
+
+    .contact-box h3 {
+      margin-bottom: 1.2rem;
+      color: #1e293b;
+    }
+
+    .phone-btn {
+      display: inline-block;
+      background: #10b981;
+      color: white;
+      padding: 16px 36px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin: 0.8rem;
+      transition: all 0.3s;
+    }
+
+    .phone-btn:hover {
+      background: #059669;
+      transform: translateY(-3px);
+    }
+
+    .tg-btn {
+      background: #0088cc;
+    }
+
+    .tg-btn:hover { background: #0077b6; }
+
+    .description {
+      background: white;
+      padding: 2.2rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+      margin-bottom: 3rem;
+    }
+
+    .description h3 {
+      margin-bottom: 1.4rem;
+      color: #1e40af;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.2rem;
+      margin-top: 2rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.04);
+    }
+
+    .footer {
+      background: #0f172a;
+      color: #94a3b8;
+      text-align: center;
+      padding: 3rem 1rem;
+      margin-top: 5rem;
+    }

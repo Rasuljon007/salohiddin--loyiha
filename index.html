@@ -1,149 +1,380 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uz">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MashinaBozor.uz — Toshkentdagi eng yaxshi mashinalar</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MashinaBozor.uz — Toshkentdagi eng yaxshi mashinalar</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">MashinaBozor.uz</div>
+      <nav class="nav">
+        <a href="#bosh">Bosh sahifa</a>
+        <a href="#katalog">Katalog</a>
+        <a href="#sotish">Sotish</a>
+        <a href="#aloqa">Aloqa</a>
+      </nav>
+    </header>
 
-  <header class="header">
-    <div class="logo">MashinaBozor.uz</div>
-    <nav class="nav">
-      <a href="#bosh">Bosh sahifa</a>
-      <a href="#katalog">Katalog</a>
-      <a href="#sotish">Sotish</a>
-      <a href="#aloqa">Aloqa</a>
-    </nav>
-  </header>
+    <section class="hero" id="bosh">
+      <div>
+        <h1>O‘zingizga mos mashinani toping!</h1>
+        <p>Toshkent va butun O‘zbekistondagi eng yaxshi narxlar va takliflar</p>
+        <a href="#katalog" class="btn">Katalogga o‘tish →</a>
+      </div>
+    </section>
 
-  <section class="hero" id="bosh">
-    <div>
-      <h1>O‘zingizga mos mashinani toping!</h1>
-      <p>Toshkent va butun O‘zbekistondagi eng yaxshi narxlar va takliflar</p>
-      <a href="#katalog" class="btn">Katalogga o‘tish →</a>
-    </div>
-  </section>
+    <section id="katalog">
+      <div class="container">
+        <h2>Katalog — Tanlangan mashinalar</h2>
 
-  <section id="katalog">
-    <div class="container">
-      <h2>Katalog — Tanlangan mashinalar</h2>
+        <div class="cars-grid">
+          <div class="car-card">
+            <a href="./detail.html">
+              <div
+                class="car-img"
+                style="
+                  background-image: url(&quot;https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80&quot;);
+                "
+              ></div>
+            </a>
+            <div class="car-info">
+              <h3>Toyota Camry 70 (2023)</h3>
+              <div class="price">285 000 $</div>
+              <div class="details">
+                <span>2.5L • Avtomat</span><span>18 000 km</span>
+              </div>
+            </div>
+          </div>
 
-      <div class="cars-grid">
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>BMW X5 M50i (2022)</h3>
+              <div class="price">148 000 $</div>
+              <div class="details">
+                <span>4.4L TwinTurbo</span><span>31 000 km</span>
+              </div>
+            </div>
+          </div>
 
-        <div class="car-card">
-          <div class="car-img" style="background-image:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80')"></div>
-          <div class="car-info">
-            <h3>Toyota Camry 70 (2023)</h3>
-            <div class="price">285 000 $</div>
-            <div class="details"><span>2.5L • Avtomat</span><span>18 000 km</span></div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1618843479313-40f2e308a518?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Hyundai Tucson 2024</h3>
+              <div class="price">38 500 $</div>
+              <div class="details">
+                <span>2.0L • Avtomat</span><span>7 400 km</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
+          </div>
+          <div class="car-card">
+            <div
+              class="car-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="car-info">
+              <h3>Mercedes GLE 450 (2023)</h3>
+              <div class="price">98 000 $</div>
+              <div class="details">
+                <span>3.0L • 4MATIC</span><span>14 200 km</span>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="car-card">
-          <div class="car-img" style="background-image:url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80')"></div>
-          <div class="car-info">
-            <h3>BMW X5 M50i (2022)</h3>
-            <div class="price">148 000 $</div>
-            <div class="details"><span>4.4L TwinTurbo</span><span>31 000 km</span></div>
-          </div>
+    <section id="sotish" style="background: #f1f5f9">
+      <div class="container">
+        <h2>Mashinangizni biz orqali soting</h2>
+        <div class="sell-form">
+          <form>
+            <div class="form-group">
+              <label>Ism Familya *</label>
+              <input type="text" placeholder="Ism Familyangiz" required />
+            </div>
+            <div class="form-group">
+              <label>Telefon raqam *</label>
+              <input type="tel" placeholder="+998 99 123 45 67" required />
+            </div>
+            <div class="form-group">
+              <label>Mashina markasi va modeli</label>
+              <input type="text" placeholder="Masalan: Toyota Camry 70" />
+            </div>
+            <div class="form-group">
+              <label>Yili</label>
+              <input type="number" placeholder="2020" />
+            </div>
+            <div class="form-group">
+              <label>Yurgan masofa (km)</label>
+              <input type="number" placeholder="45000" />
+            </div>
+            <div class="form-group">
+              <label>Qisqacha holati / qo‘shimcha ma’lumot</label>
+              <textarea
+                placeholder="Misol: to‘liq servisda, bitta egasi, ideal holat..."
+              ></textarea>
+            </div>
+            <button type="submit" class="form-btn">
+              Sotish uchun yuborish
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="aloqa">
+      <div class="container">
+        <h2>Biz bilan bog‘laning</h2>
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <label>Ismingiz *</label>
+              <input type="text" placeholder="Ismingiz" required />
+            </div>
+            <div class="form-group">
+              <label>Telefon raqamingiz *</label>
+              <input type="tel" placeholder="+998 XX XXX XX XX" required />
+            </div>
+            <div class="form-group">
+              <label>Email (ixtiyoriy)</label>
+              <input type="email" placeholder="example@mail.com" />
+            </div>
+            <div class="form-group">
+              <label>Xabar / savolingiz *</label>
+              <textarea
+                placeholder="Savolingiz yoki taklifingizni yozing..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="form-btn">Yuborish</button>
+          </form>
         </div>
 
-        <div class="car-card">
-          <div class="car-img" style="background-image:url('https://images.unsplash.com/photo-1618843479313-40f2e308a518?auto=format&fit=crop&w=800&q=80')"></div>
-          <div class="car-info">
-            <h3>Hyundai Tucson 2024</h3>
-            <div class="price">38 500 $</div>
-            <div class="details"><span>2.0L • Avtomat</span><span>7 400 km</span></div>
-          </div>
+        <div style="text-align: center; margin-top: 3rem; color: #64748b">
+          <p><strong>Telefon:</strong> +998 99 123 45 67 | +998 71 200 20 20</p>
+          <p>
+            <strong>Manzil:</strong> Toshkent sh., Chilanzor tumani, Yunusobod
+            bozori yonida
+          </p>
+          <p><strong>Telegram:</strong> @MashinaBozorUz</p>
         </div>
-
-        <div class="car-card">
-          <div class="car-img" style="background-image:url('https://images.unsplash.com/photo-1502489597346-d8389a3b1d3d?auto=format&fit=crop&w=800&q=80')"></div>
-          <div class="car-info">
-            <h3>Mercedes GLE 450 (2023)</h3>
-            <div class="price">98 000 $</div>
-            <div class="details"><span>3.0L • 4MATIC</span><span>14 200 km</span></div>
-          </div>
-        </div>
-
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="sotish" style="background:#f1f5f9;">
-    <div class="container">
-      <h2>Mashinangizni biz orqali soting</h2>
-      <div class="sell-form">
-        <form>
-          <div class="form-group">
-            <label>Ism Familya *</label>
-            <input type="text" placeholder="Ism Familyangiz" required>
-          </div>
-          <div class="form-group">
-            <label>Telefon raqam *</label>
-            <input type="tel" placeholder="+998 99 123 45 67" required>
-          </div>
-          <div class="form-group">
-            <label>Mashina markasi va modeli</label>
-            <input type="text" placeholder="Masalan: Toyota Camry 70">
-          </div>
-          <div class="form-group">
-            <label>Yili</label>
-            <input type="number" placeholder="2020">
-          </div>
-          <div class="form-group">
-            <label>Yurgan masofa (km)</label>
-            <input type="number" placeholder="45000">
-          </div>
-          <div class="form-group">
-            <label>Qisqacha holati / qo‘shimcha ma’lumot</label>
-            <textarea placeholder="Misol: to‘liq servisda, bitta egasi, ideal holat..."></textarea>
-          </div>
-          <button type="submit" class="form-btn">Sotish uchun yuborish</button>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <section id="aloqa">
-    <div class="container">
-      <h2>Biz bilan bog‘laning</h2>
-      <div class="contact-form">
-        <form>
-          <div class="form-group">
-            <label>Ismingiz *</label>
-            <input type="text" placeholder="Ismingiz" required>
-          </div>
-          <div class="form-group">
-            <label>Telefon raqamingiz *</label>
-            <input type="tel" placeholder="+998 XX XXX XX XX" required>
-          </div>
-          <div class="form-group">
-            <label>Email (ixtiyoriy)</label>
-            <input type="email" placeholder="example@mail.com">
-          </div>
-          <div class="form-group">
-            <label>Xabar / savolingiz *</label>
-            <textarea placeholder="Savolingiz yoki taklifingizni yozing..." required></textarea>
-          </div>
-          <button type="submit" class="form-btn">Yuborish</button>
-        </form>
-      </div>
-
-      <div style="text-align:center; margin-top:3rem; color:#64748b;">
-        <p><strong>Telefon:</strong> +998 99 123 45 67  |  +998 71 200 20 20</p>
-        <p><strong>Manzil:</strong> Toshkent sh., Chilanzor tumani, Yunusobod bozori yonida</p>
-        <p><strong>Telegram:</strong> @MashinaBozorUz</p>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <p>© 2025–2026 MashinaBozor.uz — Barcha huquqlar himoyalangan</p>
-    <p>Toshkent • +998 99 123 45 67 • info@mashinabozor.uz</p>
-  </footer>
-
-</body>
+    <footer class="footer">
+      <p>© 2025–2026 MashinaBozor.uz — Barcha huquqlar himoyalangan</p>
+      <p>Toshkent • +998 99 123 45 67 • info@mashinabozor.uz</p>
+    </footer>
+  </body>
 </html>

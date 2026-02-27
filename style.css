@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.header {
+  background: linear-gradient(135deg, #1e40af, #3b82f6);
+  color: white;
+  padding: 1rem 5%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #fef08a;
+}
+
+section {
+  padding: 5rem 5% 4rem;
+}
+
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("https://images.unsplash.com/photo-1502877338535-766e3a6052c0?auto=format&fit=crop&w=2000&q=80")
+      center/cover;
+  height: 75vh;
+  min-height: 520px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.btn {
+  background: #ef4444;
+  color: white;
+  padding: 14px 36px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+  box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
+}
+
+.btn:hover {
+  background: #dc2626;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(239, 68, 68, 0.5);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  color: #1e40af;
+  margin: 0 0 3rem;
+}
+
+.cars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2.2rem;
+}
+
+.car-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+}
+
+.car-card:hover {
+  transform: translateY(-14px);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.15);
+}
+
+.car-img {
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+}
+
+.car-info {
+  padding: 1.8rem;
+}
+
+.car-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.price {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #e11d48;
+  margin: 0.7rem 0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  color: #64748b;
+  font-size: 0.98rem;
+  margin-top: 1.2rem;
+}
+
+.sell-form,
+.contact-form {
+  max-width: 680px;
+  margin: 0 auto;
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1.6rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.6rem;
+  font-weight: 500;
+  color: #334155;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.form-btn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.form-btn:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}
+
+.footer {
+  background: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 4rem 1rem 2.5rem;
+  margin-top: 6rem;
+}
